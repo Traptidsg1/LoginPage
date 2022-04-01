@@ -1,0 +1,37 @@
+.button {
+  border: 1.5px solid black;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  padding: 2px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 60px;
+  margin-top: 10px;
+  box-shadow: 1px 1px 2px 1px;
+}
+
+.primary {
+  background-color:rgb(161, 63, 63);
+  color: white;
+  
+}
+
+.success {
+  background-color: green;
+  color: white;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+.hover-on:active {
+  opacity: 0.5;
+}
+
+.rounded-button {
+  border-radius: 5px;
+}

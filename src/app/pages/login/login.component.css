@@ -1,0 +1,17 @@
+.login-master-container{
+    margin:0;
+    padding: 20px 40px;
+    background-color: white;
+    border: 1px solid rgb(17, 31, 31);
+    height:350px;
+    width: 250px;;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 10px -1px 5px black;
+}

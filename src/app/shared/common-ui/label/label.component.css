@@ -1,0 +1,73 @@
+.normal-text {
+  font-size: 14px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.header-text {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  padding: 30px;
+  
+}
+.header-text2{
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  
+
+.link-text {
+  color: blue;
+}
+
+.link-text:hover {
+  border-bottom: 1px solid blue;
+}
+.redbuttonOnHover:hover{
+    background-color: red;
+}
+.center-text{
+    align-items: center;
+    width: 100%;
+    display:flex;
+    padding: 10px 8px;
+    margin:15px;
+}
+.rounded-menu-link{
+  padding:7px 7px;
+  background-color: white;
+  margin-right: 10px;
+  min-width:120px;
+  display: inline-block;
+  padding-top: 8px;
+  text-align: center;
+  justify-content: center;
+  height: 22px;
+  cursor: pointer;
+  margin-top:10px;
+}
+
+.rounded-menu-link:hover{
+     background-color: rgb(100, 153, 69);
+    
+}
+@media only screen and (max-width:830px){
+  .rounded-menu-link-mobile{
+    padding:7px 7px;
+    background-color: rgb(193, 198, 214);
+    margin-right: 10px;
+    width:250px;
+    display: inline-block;
+    padding-top: 8px;
+    text-align: center;
+    justify-content: center;
+    height: 22px;
+    cursor: pointer;
+    margin-top:10px;
+  }
+}

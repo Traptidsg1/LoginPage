@@ -1,0 +1,6 @@
+.app-scroll-container{
+    /* top:55px; */
+    height:calc(100% - 55px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}

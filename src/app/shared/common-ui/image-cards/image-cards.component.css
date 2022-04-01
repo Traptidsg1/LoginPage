@@ -1,0 +1,10 @@
+/* img{
+    width:100px;
+} */
+.image-card{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    width:14rem;
+
+}
